@@ -5,7 +5,7 @@ OX 퀴즈
 ![image](https://user-images.githubusercontent.com/100507512/176671627-f49dee56-707c-4420-ba39-e2581a76069a.png)
 
 <h3>작동</h3>
-<퀴즈 시작~!> 버튼을 누르면 10000milisecond (10second) 가 카운트되며 퀴즈가 시작된다.<br>
+<퀴즈 시작~!> 버튼을 누르면 10초가 카운트되며 퀴즈가 시작된다.<br>
 문제에 대한 버튼을 누르면 정답인지 오답인지의 여부가 alert 로 화면에 뜬다.<br>
 카운트가 초과될 시에 alert로 정답이 화면에 뜬다.<br>
 
