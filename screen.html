@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <button onclick="setTimeout(myFunction, 10000)">퀴즈 시작 ~ !</button>
+    <h4>10초 뒤 정답이 보입니다.</h4>
+
+    <ul>
+        <li>대한민국의 수도는 서울이다.
+
+            <form action="form">
+                <input type="button" name="capitalO" value="O" onclick="Ofunction()">
+                <input type="button" name="capitalX" value="X" onclick="Xfunction()">
+                <br>
+            </form>
+        </li>
+
+        <li>미국의 수도는 평양이다.
+
+            <form action="form">
+                <input type="button" name="capitalO" value="O" onclick="O2function()">
+                <input type="button" name="capitalX" value="X" onclick="X2function()">
+                <br>
+            </form>
+
+        </li>
+
+        <li>중국의 수도는 베이징이다.
+            <form action="form">
+                <input type="button" name="capitalO" value="O" onclick="Ofunction()">
+                <input type="button" name="capitalX" value="X" onclick="Xfunction()">
+                <br>
+            </form>
+        </li>
+
+        <li>프랑스의 수도는 베르사유다.
+            <form action="form">
+                <input type="button" name="capitalO" value="O" onclick="O2function()">
+                <input type="button" name="capitalX" value="X" onclick="X2function()">
+                <br>
+            </form>
+        </li>
+        
+        <li>독일의 수도는 베를린이다.
+            <form action="form">
+                <input type="button" name="capitalO" value="O" onclick="Ofunction()">
+                <input type="button" name="capitalX" value="X" onclick="Xfunction()">
+                <br>
+            </form>
+        </li>
+    </ul>
+
+    <script>
+       function myFunction(){
+            alert("O X O X O");
+       } 
+        function Ofunction() {
+            alert("정답");
+        }
+        function Xfunction() {
+            alert("오답");
+        }
+        function O2function() {
+            alert("오답");
+        }
+        function X2function() {
+            alert("정답");
+        }
+    </script>
+    
+</body>
+</html>
